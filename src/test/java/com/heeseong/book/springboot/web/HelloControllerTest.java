@@ -16,6 +16,7 @@ public class HelloControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
+
     //Junit5 부터는 @Test 로 대체
     @Test
     public void hello()throws Exception{
