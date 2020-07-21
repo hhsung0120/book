@@ -22,7 +22,7 @@ public class PostsRepositoryTest {
         postsRepository.deleteAll();
     }
 
-    @Test
+    /*@Test
     public void 게시글저장_불러오기(){
         String title = "게시글";
         String content = "본문";
@@ -40,7 +40,7 @@ public class PostsRepositoryTest {
         assertThat(posts.getTitle()).isEqualTo(title);
         assertThat(posts.getContent()).isEqualTo(content);
 
-    }
+    }*/
 
     @Test
     public void BaseTimeEntity_등록() {
