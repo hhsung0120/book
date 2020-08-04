@@ -38,6 +38,7 @@ dependencies {
     testCompile('org.springframework.security:spring-security-test')
     apply plugin: 'io.spring.dependency-management'
     compile('org.mariadb.jdbc:mariadb-java-client')
+    compile('com.h2database:h2')
 
 }
 
