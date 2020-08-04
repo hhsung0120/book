@@ -39,8 +39,6 @@ dependencies {
     apply plugin: 'io.spring.dependency-management'
     compile('org.mariadb.jdbc:mariadb-java-client')
     compile('com.h2database:h2')
-
-
 }
 
 test {
