@@ -15,7 +15,7 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r webServer
+  - zip -r webServer *
   - mkdir -p deploy
   - mv webServer.zip ddeploy/webServer.zip
 
